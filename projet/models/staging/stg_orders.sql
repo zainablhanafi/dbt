@@ -1,15 +1,11 @@
 with source as (
-    select * from {{ source('nom_de_ta_source', 'raw_orders') }}
+    select * from {{ source('my_dbt_db', 'raw_orders') }}
 ),
-
-staged as (
+renamed as (
     select
-        id as order_id,
-        customer_id,
-        order_date,
-        status
-        -- adapte les colonnes selon ta table raw_orders
+        id as orders_id,
+        customer as customer_id,
+        ordered_at as orders_date
     from source
 )
-
-select * from staged
+select * from renamed

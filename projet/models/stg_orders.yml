@@ -1,14 +1,8 @@
 version: 2
 
 models:
-  - name: stg_orders
-    description: "Staging model for orders"
-    columns:
-      - name: order_id
-        description: "Primary key"
-      - name: customer_id
-        description: "Foreign key to customers"
-      - name: order_date
-        description: "Date of the order"
-      - name: status
-        description: "Order status"
+    - name: stg_orders
+      columns:
+        - name: order_id
+        - name: customer_id
+        - name : order_date
