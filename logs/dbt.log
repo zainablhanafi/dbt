@@ -1,0 +1,60 @@
+[0m20:37:56.205931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259C3844860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259C61BB860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259C6A88260>]}
+
+
+============================== 20:37:56.242576 | f75b1d8f-f0de-4629-ab66-a6d0d439fb69 ==============================
+[0m20:37:56.242576 [info ] [MainThread]: Running with dbt=1.11.7
+[0m20:37:56.243686 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\zainabe~\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:37:56.297718 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\zainabe~\.dbt
+[0m20:40:20.542368 [debug] [MainThread]: Starter project path: C:\Users\zainabe~\Desktop\DBT\my-dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m20:40:20.612364 [info ] [MainThread]: 
+Your new dbt project "my_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:40:20.613373 [info ] [MainThread]: Setting up your profile.
+[0m20:40:20.613373 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m20:40:20.613373 [debug] [MainThread]: Command `dbt init` failed at 20:40:20.613373 after 144.52 seconds
+[0m20:40:20.621882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259C613E840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259C69E6570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259C5F855B0>]}
+[0m20:40:20.621882 [debug] [MainThread]: Flushing usage events
+[0m20:40:21.682126 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:41:43.866778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8C022D7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8C022D250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8C022D040>]}
+
+
+============================== 20:41:43.866778 | d75dac85-d7db-4320-bfae-cd2fdce9d51f ==============================
+[0m20:41:43.866778 [info ] [MainThread]: Running with dbt=1.7.19
+[0m20:41:43.882540 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\zainabe~\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init nom_de_ton_projet', 'send_anonymous_usage_stats': 'True'}
+[0m20:41:43.884741 [debug] [MainThread]: Starter project path: C:\Users\zainabe~\Desktop\DBT\my-dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m20:41:43.906088 [info ] [MainThread]: 
+Your new dbt project "nom_de_ton_projet" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:41:43.907592 [info ] [MainThread]: Setting up your profile.
+[0m20:41:53.504989 [info ] [MainThread]: Profile nom_de_ton_projet written to C:\Users\zainabe~\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m20:41:53.504989 [debug] [MainThread]: Command `dbt init` succeeded at 20:41:53.504989 after 9.75 seconds
+[0m20:41:53.504989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8C00FE1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8BFF2F9B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8C0062BD0>]}
+[0m20:41:53.521035 [debug] [MainThread]: Flushing usage events
